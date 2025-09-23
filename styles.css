@@ -10,3 +10,49 @@ body {
   background: linear-gradient(135deg, #4c1d95 0%, #1e3a8a 50%, #312e81 100%);
   min-width: 100%;
 }
+
+/* //////Header, Navigation////// */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 10px rgba(175, 50, 50, 0.5);
+  z-index: 1000;
+}
+
+.logo .highlight {
+  color: #f90404;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 8px 16px;
+  background: rgb(4, 89, 89);
+  border: 1px solid #666;
+  border-radius: 4px;
+}
+
+.nav-links a:hover {
+  background: #fff;
+  color: #444;
+  border-bottom: 2px solid rgb(248, 4, 4);
+  transition: 0.3s;
+}
