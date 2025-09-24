@@ -178,3 +178,49 @@ header {
 .profile-image:hover {
   transform: scale(1.05);
 }
+
+/* /////footer sectiron\\\\\*/
+.footer {
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2rem 0;
+  text-align: center;
+  padding: 15px 40px 0px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.media-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  gap: 30px;
+}
+
+.media-icons a {
+  color: #ff5733;
+  font-size: 30px;
+  transition: 0.8s;
+  transition-property: all;
+}
+
+.media-icons a:hover {
+  transform: scale(1.5);
+}
+
+.copy-right{
+  color: #fff;
+}
+
+.contact-info{
+color: #ff5733;
+}
+.contact-info a{
+    color: #fff;
+} 
