@@ -22,3 +22,11 @@ window.addEventListener("click", (e) => {
     modal.style.display = "none";
   }
 });
+
+
+// Hamburger menu toggle
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('navLinks');
+  hamburger.onclick = () => {
+    navLinks.classList.toggle('active');
+  };
