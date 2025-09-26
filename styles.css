@@ -570,6 +570,7 @@ main {
     grid-template-columns: 1fr;
     text-align: center;
     gap: 3rem;
+    margin-top: 5rem;
   }
 
   .hero-text h1 {
