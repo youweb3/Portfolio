@@ -92,6 +92,36 @@ main {
   flex: 1;
 }
 
+/* Hero text animation */
+.hero-text,
+.hero-subtext,
+.hero-describe,
+.hero-buttons {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 2s forwards;
+}
+
+.hero-text {
+  animation-delay: 0.2s;
+}
+.hero-subtext {
+  animation-delay: 0.6s;
+}
+.hero-describe {
+  animation-delay: 0.8s;
+}
+.hero-buttons {
+  animation-delay: 1.5s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .hero {
   min-height: 100vh;
   display: flex;
@@ -177,6 +207,15 @@ main {
 
 .btn-link:hover {
   background: rgba(255, 255, 255, 0.1);
+  border-bottom: 2px solid rgb(248, 4, 4);
+}
+
+.read-more-btn:hover {
+  background: rgb(4, 89, 89);
+  border: 1px solid #666;
+  border-bottom: 2px solid rgb(248, 4, 4);
+  font-weight: 500;
+  color: #ffffff;
 }
 
 /* //////Hero Image//// */
