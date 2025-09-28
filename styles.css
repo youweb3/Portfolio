@@ -121,7 +121,7 @@ main {
     transform: translateY(0);
   }
 }
-
+/* ////// */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -168,12 +168,17 @@ main {
   color: rgba(255, 255, 255, 0.8);
 }
 
+.hero-describe i{
+  font-size: medium;
+}
+
 /* //Main button //*/
 .hero-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2rem;
+  margin-bottom:1rem ;
 }
 
 .btn {
@@ -209,13 +214,26 @@ main {
   background: rgba(255, 255, 255, 0.1);
   border-bottom: 2px solid rgb(248, 4, 4);
 }
+.read-more-btn{
+  font-weight: bold;
+  background: transparent;
+  color: rgb(9, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  /* display: inline-flex; */
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  background-color: #fff;
+}
 
 .read-more-btn:hover {
-  background: rgb(4, 89, 89);
-  border: 1px solid #666;
-  border-bottom: 2px solid rgb(248, 4, 4);
-  font-weight: 500;
   color: #ffffff;
+  background: rgb(4, 89, 89);
+  border-bottom: 2px solid rgb(248, 4, 4);
 }
 
 /* //////Hero Image//// */
@@ -264,7 +282,7 @@ main {
 
 .modal-content {
   background: blueviolet;
-  padding: 15px;
+  padding: 28px;
   width: 90%;
   max-width: 500px;
   text-align: center;
