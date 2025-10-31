@@ -410,14 +410,31 @@ margin: 0px auto 3rem;
 .project-header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 1rem;
+}
+
+.project-header a span:hover {
+  color: #1a1918;
+}
+
+.project-header a i {
+  color: #ffffff;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+.project-header a i:hover {
+  color: #1a1918;
 }
 
 .project-header h4 {
   font-size: 1.25rem;
   margin: 0;
   color: #ffffff;
+}
+
+.project-header h4:hover {
+  color: #f97316;
 }
 
 .project-category {
